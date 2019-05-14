@@ -8,7 +8,10 @@
  */
 namespace framing\Base;
 
-class BaseController {
-
+class BaseController extends Phalcon\Mvc\Controller {
+	
+	public function exectue() {
+		
+	}
 }
 
